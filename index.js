@@ -44,7 +44,7 @@ async function addEvent(event) {
   event.preventDefault();
 
   const name = addEventForm.title.value;
-  const date = "2023-08-20T23:40:09.000Z"; //addEventForm.eventDate.value;
+  const date = addEventForm.eventDate.value + "09.000Z";
   const description = addEventForm.description.value;
   const location = addEventForm.eventLocation.value;
 
